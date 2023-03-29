@@ -502,7 +502,7 @@ Navbar
 .nav-toggle:hover {
   transform: scale(1.2);
 }
-.nav-link {
+#nav-links li a {
   display: block;
   padding: 1rem 2rem;
   text-transform: capitalize;
@@ -511,6 +511,7 @@ Navbar
   color: var(--clr-grey-1);
   cursor: pointer;
   font-size: 1rem;
+  background-color: black;
 }
 .nav-link:hover {
   color: var(--clr-primary-1);
